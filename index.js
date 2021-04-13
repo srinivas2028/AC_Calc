@@ -47,7 +47,7 @@ function del(){
     $("#result").val(p);
 }
 function play_A(){
-    var aud=new Audio('click2.mp3');
+    var aud=new Audio('https://raw.githubusercontent.com/Akhilchary/AC_Calc/main/click2.mp3');
     aud.play();
 }
 
