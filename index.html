@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input id="result" class="input-group value" type="text" readonly="">
+        <div class="inn">
+            <input class="btn btn-lg " id="n127" type="button" value="C" onclick="clr(); play_A()">
+            <input class="btn btn-lg" id="n08" type="button" value="del" onclick="del()">
+            <input class="btn btn-lg" id="n37" type="button" value="%" onclick="disp('%')">
+            <input class="btn btn-lg" id="n47" type="button" value="/" onclick="disp('/')">
+
+            <input class="btn btn-lg" id="n7" type="button" value="7" onclick="disp('7')">             
+            <input class="btn btn-lg" id="n8" type="button" value="8" onclick="disp('8')">             
+            <input class="btn btn-lg" id="n9" type="button" value="9" onclick="disp('9')">
+            <input class="btn btn-lg" id="n43" type="button" value="+" onclick="disp('+')">
+
+            <input class="btn btn-lg" id="n4" type="button" value="4" onclick="disp('4')">             
+            <input class="btn btn-lg" id="n5" type="button" value="5" onclick="disp('5')">             
+            <input class="btn btn-lg" id="n6" type="button" value="6" onclick="disp('6')">             
+            <input class="btn btn-lg" id="n45" type="button" value="-" onclick="disp('-')"> 
+
+            <input class="btn btn-lg" id="n1" type="button" value="1" onclick="disp('1')">             
+            <input class="btn btn-lg" id="n2" type="button" value="2" onclick="disp('2')">             
+            <input class="btn btn-lg" id="n7" type="button" value="3" onclick="disp('3')">             
+            <input class="btn btn-lg" id="n42" type="button" value="*" onclick="disp('*')">
+                         
+            <input class="btn btn-lg" id="n0" type="button" value="0" onclick="disp('0')">             
+            <input class="btn btn-lg" id="n46" type="button" value="." onclick="disp('.')">             
+            <input class="btn btn-lg btn-l" id="equal" type="button" value="=" onclick="solve()">             
+
+        </div>
+ 
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
