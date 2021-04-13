@@ -47,7 +47,7 @@ function del(){
     $("#result").val(p);
 }
 function play_A(){
-    var aud=new Audio('https://github.com/Akhilchary/AC_Calc/blob/main/Click2.mp3?raw=true');
+    var aud=new Audio('click2.mp3');
     aud.play();
 }
 
@@ -56,7 +56,7 @@ document.addEventListener("keydown",function(event){
     
     var ele=event.key;
     var eleCharCode=ele.charCodeAt(0);
-    // console.log(eleCharCode+" "+ele);
+    console.log(eleCharCode+" "+ele);
     if(eleCharCode>=48 && eleCharCode<=57){
         sty(ele);
         disp(ele);
@@ -71,7 +71,7 @@ document.addEventListener("keydown",function(event){
     else if(eleCharCode==69){
         solve();
         play_A();
-        sty();
+        sty(eleCharCode);
     }
     else if(ele==="Backspace"){del();play_A();sty('08');}
     else if(ele==="Delete"){clr();play_A();sty('127');}
