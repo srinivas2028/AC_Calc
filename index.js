@@ -47,7 +47,7 @@ function del(){
     $("#result").val(p);
 }
 function play_A(){
-    var aud=new Audio('https://github.com/Akhilchary/AC_Calc/blob/main/Click2.mp3');
+    var aud=new Audio('https://github.com/Akhilchary/AC_Calc/blob/main/Click2.mp3?raw=true');
     aud.play();
 }
 
