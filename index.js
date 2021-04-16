@@ -56,9 +56,9 @@ document.addEventListener("keydown",function(event){
     
     var ele=event.key;
     var eleCharCode=ele.charCodeAt(0);
-    console.log(eleCharCode+" "+ele);
+//     console.log(eleCharCode+" "+ele);
     if(eleCharCode>=48 && eleCharCode<=57){
-        sty(ele);
+//         sty(ele);
         disp(ele);
         play_A();
         sty(ele);
