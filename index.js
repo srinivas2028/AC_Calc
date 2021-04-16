@@ -47,7 +47,7 @@ function del(){
     $("#result").val(p);
 }
 function play_A(){
-    var aud=new Audio("sounds/click2.mp3");
+    var aud=new Audio("sounds/Click2.mp3");
     aud.play();
 }
 
